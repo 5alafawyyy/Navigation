@@ -71,16 +71,16 @@ PopupMenuButton(
 
 ## Drawer & BottomNavBar & PopupMenuButton ScreenShots
 <p float="left">
-  <img src="screenshots/bottom1.jpg" width="18%" />
-  <img src="screenshots/bottom2.jpg" width="18%" />
-  <img src="screenshots/bottom3.jpg" width="18%" />
-  <img src="screenshots/drawer.jpg" width="18%" /> 
-  <img src="screenshots/popup.jpg" width="18%" /> 
+  <img src="screenshots/bottom1.jpg" width="19.5%" />
+  <img src="screenshots/bottom2.jpg" width="19.5%" />
+  <img src="screenshots/bottom3.jpg" width="19.5%" />
+  <img src="screenshots/drawer.jpg" width="19.5%" /> 
+  <img src="screenshots/popup.jpg" width="19.5%" /> 
 </p>
 
 ## TabBar ScreenShots
 <p float="left">
-  <img src="screenshots/tab1.jpg" width="32%" />
-  <img src="screenshots/tab2.jpg" width="32%" />
-  <img src="screenshots/tab3.jpg" width="32%" />
+  <img src="screenshots/tab1.jpg" width="33%" />
+  <img src="screenshots/tab2.jpg" width="33%" />
+  <img src="screenshots/tab3.jpg" width="33%" />
 </p>
