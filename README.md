@@ -2,6 +2,7 @@
 
 A new Flutter project. To use all ways to navigate between screens
 
+# The different ways to navigate
 ## PopupMenuButton: 
     Is used in action at AppBar
 PopupMenuButton(
@@ -44,3 +45,39 @@ bottomNavigationBar: BottomNavigationBar(
         // navigateToYourScreen();
     }
 ),
+
+## TabBar:
+    Is made frm three parts
+* TabBarController
+* TabBar
+* TabBarView
+
+
+# But how to use between them
+## by the number of items to show
+    If is more than 4 or 5 items => choose one the vertical layouts
+
+### Vertical Layouts
+* PopupMenuButton 
+* Drawer (it's more flexible so it's better)
+
+### Horizontal Layouts
+* BottomNavigationBar (it's more simple)
+* TabBar (if you need animation on navigation it's perfect)
+
+
+## Drawer & BottomNavBar & PopupMenuButton ScreenShots
+<p float="left">
+  <img src="screenshots/bottom1.jpg" width="18%" />
+  <img src="screenshots/bottom2.jpg" width="18%" />
+  <img src="screenshots/bottom3.jpg" width="18%" />
+  <img src="screenshots/drawer.jpg" width="18%" /> 
+  <img src="screenshots/popup.jpg" width="18%" /> 
+</p>
+
+## TabBar ScreenShots
+<p float="left">
+  <img src="screenshots/tab1.jpg" width="32%" />
+  <img src="screenshots/tab2.jpg" width="32%" />
+  <img src="screenshots/tab3.jpg" width="32%" />
+</p>
