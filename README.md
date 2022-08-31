@@ -1,16 +1,18 @@
-# navigation
+# Navigation
 
-A new Flutter project.
+A new Flutter project. To use all ways to navigate between screens
 
-## Getting Started
+## PopupMenuButton Usage:
+PopupMenuButton(
+    */ Choose between icon Or child. But not both together!/*
+    // icon: Icon(Icons.'AnyIcon'),
+    child: Text('Any Text'),
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    itemBuilder: (BuildContext context) => [
+        PopupMenuItem(
+            value: 1,
+            child: Text('First),
+        ),
+    ],
+    onSelected: (v) => doSomething(context, v),
+),
