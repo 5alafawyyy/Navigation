@@ -5,6 +5,7 @@ class ArtRoute extends StatelessWidget {
   const ArtRoute({super.key, required this.art});
 
   final String art;
+  static int _currentIndex = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -98,6 +99,36 @@ class ArtRoute extends StatelessWidget {
             fit: BoxFit.cover,
           ),
         ),
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Colors.yellow[700],
+        selectedItemColor: Colors.white,
+        selectedFontSize: 16.0,
+        items: const [
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.art_track,
+            ),
+            label: ArtUtil.CARAVAGGIO,
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.art_track,
+            ),
+            label: ArtUtil.MONET,
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.art_track,
+            ),
+            label: ArtUtil.VANGOGH,
+          ),
+        ],
+        currentIndex: _currentIndex,
+        onTap: ((value) {
+          changeRoute(context, ArtUtil.menuItems[value]);
+          _currentIndex = value;
+        }),
       ),
     );
   }
