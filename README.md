@@ -34,7 +34,7 @@ PopupMenuButton(
 * May contain text, icon or both
 
 
-### inside a Scafolld
+### inside a Scaffold
 
     bottomNavigationBar: BottomNavigationBar(   
         items: [
