@@ -34,19 +34,19 @@ PopupMenuButton(
 * May contain text, icon or both
 
 
- <!-- inside a Scafolld -->
-bottomNavigationBar: BottomNavigationBar(   
-    
-    items: [
-    // Use the items parameter to add BottomNavigationBarItem Widgets
-        BottomNavigationBarItem(
-            icon: Icon(Icons.'AnyIcon',),
-            label: 'Title', // if not exists cause an error
-        ),
-    ],
-    onTap: (value){ // Respond t user input with onTap
-        // navigateToYourScreen();
-    }
+### inside a Scafolld
+
+    bottomNavigationBar: BottomNavigationBar(   
+        items: [
+        // Use the items parameter to add BottomNavigationBarItem Widgets
+            BottomNavigationBarItem(
+                icon: Icon(Icons.'AnyIcon',),
+                label: 'Title', // if not exists cause an error
+            ),
+        ],
+        onTap: (value){ // Respond t user input with onTap
+            // navigateToYourScreen();
+        }
     ),
 
 ## TabBar:
