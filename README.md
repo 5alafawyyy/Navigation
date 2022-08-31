@@ -6,6 +6,7 @@ A new Flutter project. To use all ways to navigate between screens
 ## PopupMenuButton: 
     Is used in action at AppBar
 PopupMenuButton(
+
     */ Choose between icon Or child parameters. But not both together!/*
     // icon: Icon(Icons.'AnyIcon'),
     child: Text('Any Text'),
@@ -17,7 +18,7 @@ PopupMenuButton(
         ),
     ],
     onSelected: (v) => doSomething(context, v),
-),
+    ),
 
 ## Drawer:
     Is a flexible way to add navigation to the Application
@@ -33,9 +34,11 @@ PopupMenuButton(
 * May contain text, icon or both
 
 
-// inside a Scafolld:
+ <!-- inside a Scafolld -->
 bottomNavigationBar: BottomNavigationBar(   
-    items: [ // Use the items parameter to add BottomNavigationBarItem Widgets
+    
+    items: [
+    // Use the items parameter to add BottomNavigationBarItem Widgets
         BottomNavigationBarItem(
             icon: Icon(Icons.'AnyIcon',),
             label: 'Title', // if not exists cause an error
@@ -44,10 +47,10 @@ bottomNavigationBar: BottomNavigationBar(
     onTap: (value){ // Respond t user input with onTap
         // navigateToYourScreen();
     }
-),
+    ),
 
 ## TabBar:
-    Is made frm three parts
+    Is made from three parts
 * TabBarController
 * TabBar
 * TabBarView
